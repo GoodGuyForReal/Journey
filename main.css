@@ -59,14 +59,10 @@
 
 .nav-scroller .nav {
     display: flex;
-    flex-wrap: nowrap;
-    padding-bottom: 1rem;
-    margin-top: -1px;
-    overflow-x: auto;
-    text-align: center;
-    white-space: nowrap;
-    -webkit-overflow-scrolling: touch;
+   justify-content: space-between;
 }
+
+
 
 .nav-scroller .nav-link {
     padding-top: .75rem;
@@ -427,9 +423,17 @@ input[type="search"]::-webkit-search-results-decoration {
         font-size: 22px;
     }
 
+    .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+    }
 }
-
-
 
 
 @media (max-width : 770px) {

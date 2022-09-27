@@ -51,7 +51,7 @@ let news = (newsData) => {
                         <div class="smCardContent" id="smCardContent">
                             <p class="smWiter">${newsData.results[i].byline} - ${d(i)}</p>
                             <h1 class="smCardTitle" id="h1">${newsData.results[i].title}</h1>
-                            <a class="smCardLink" href="">Read Artical <i
+                            <a class="smCardLink" target='_blank' href="${newsData.results[i].url}>Read Artical <i
                                     class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
                         </div>
                     </div>
